@@ -1,0 +1,147 @@
+html
+{
+	font-family:Arial,Helvetica, sans-serif;
+	background-color: #000;
+	color:#fff;
+}
+
+input[type="checkbox"]
+{
+	padding:0;
+	margin:0;
+	float:left;
+	visibility: hidden;
+}
+input.hide{visibility: visible}
+footer>div{text-align: center;color:#666;}
+footer>div>a{color:#999;text-decoration: none;font-weight: bold}
+footer>div>a:hover{color:#fff;}
+.alert-box
+{
+	padding: 5px 15px;
+	border:1px solid #fff;
+	background-color:#933;
+	font-size: 12px;
+	font-weight: bold;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+}
+
+.clearfix:after
+{
+	content:' ';
+	display:block;
+	clear:both;
+	font-size: 0;
+	height: 0
+}
+
+#court,#next
+{
+	line-height: 0;
+	margin:10px auto;
+}
+#court{background-color: #666;}
+#next{margin-top:30px;}
+#main-content
+{
+	max-width: 600px;
+	margin:0 auto;
+}
+#scoreMeter
+{
+	text-align: center;
+	margin: 0
+}
+
+#touch-controls
+{
+	display: none;
+	list-style: none;
+	padding: 0; 
+	position: fixed; 
+	bottom:50px;
+	opacity:0.3;
+}
+
+#touch-controls li
+{
+	float:left;
+	display: block; 
+	cursor: pointer;
+	font-size: 60px;
+	background-color:#333;
+	margin: 5px;
+}
+
+#touch-controls.enabled{display: block}
+
+#play-button
+{
+	display: block;
+	width:30px;
+	margin:60px auto;
+	padding: 5px;
+	background-color: #666;
+	border-radius:3px;
+	border: 2px solid white;
+	cursor: pointer;
+
+	-webkit-transition:background-color 0.5s;
+	-moz-transition:background-color 0.5s;
+	-ms-transition:background-color 0.5s;
+	-o-transition:background-color 0.5s;
+	transition:background-color 0.5s;
+}
+
+#play-button:hover
+{
+	background-color:transparent;
+
+	-webkit-transition:background-color 0.5s;
+	-moz-transition:background-color 0.5s;
+	-ms-transition:background-color 0.5s;
+	-o-transition:background-color 0.5s;
+	transition:background-color 0.5s;
+}
+
+#loading
+{
+	font-weight: bold;
+	margin: 80px auto;
+	width:80px;
+	text-align:left;
+	overflow: hidden;
+	-webkit-animation: loadAnimation 2s infinite alternate-reverse;
+	-moz-animation: loadAnimation 2s infinite alternate-reverse;
+	-o-animation: loadAnimation 2s infinite alternate-reverse;
+	animation: loadAnimation 2s infinite alternate-reverse;
+}
+
+@-webkit-keyframes loadAnimation
+{
+	0%{-webkit-transform:rotateX(90deg) scale(0.6,0.6);opacity:0;}
+	80%{-webkit-transform:rotateX(0deg) scale(1,1);opacity: 1}
+}
+
+@-moz-keyframes loadAnimation
+{
+	0%{-moz-transform:rotateX(90deg) scale(0.6,0.6);opacity:0;}
+	80%{-moz-transform:rotateX(0deg) scale(1,1);opacity: 1}
+}
+
+@-o-keyframes loadAnimation
+{
+	0%{-o-transform:rotateX(90deg) scale(0.6,0.6);opacity:0;}
+	80%{-o-transform:rotateX(0deg) scale(1,1);opacity: 1}
+}
+
+@keyframes loadAnimation
+{
+	0%{transform:rotateX(90deg) scale(0.6,0.6);opacity:0;}
+	80%{transform:rotateX(0deg) scale(1,1);opacity: 1}
+}
