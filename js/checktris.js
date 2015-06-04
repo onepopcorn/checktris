@@ -1,3 +1,9 @@
+/* 
+ * Some parts of code are inspired by this website:
+ * http://codeincomplete.com/posts/2011/10/10/javascript_tetris/
+ *
+ */
+
 var 	KEY              = {SPACE:32,LEFT:37,UP:38,RIGHT:39,DOWN:40},
 		DIR              = {UP:0,RIGHT:1,DOWN:2,LEFT:3,MIN:0,MAX:3}, 
 		POINTS_PER_LINE  = 100,
@@ -28,7 +34,7 @@ var 	KEY              = {SPACE:32,LEFT:37,UP:38,RIGHT:39,DOWN:40},
 					[0x0E40, 0x4C40, 0x4E00, 0x4640], // T
 					[0x0C60, 0x4C80, 0x0C60, 0x4C80]  // Z
 				];
-		console.log("HEEKKIIII");
+				
 function drawCourt()
 {
 	court = document.getElementById("court");
