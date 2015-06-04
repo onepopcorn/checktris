@@ -1,6 +1,9 @@
 # Checktris
 A clone of tetris video game but made with checkboxes
 
+## Demo
+You can take a look at the results [here](http://checktris.onepopcorn.com/)
+
 ## Installation
 Before anything be sure to have [grunt](http://gruntjs.com/) & [nodejs](http://nodejs.org). You will need it to build the project.
 
