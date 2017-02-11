@@ -11,7 +11,7 @@ Before anything be sure to have [grunt](http://gruntjs.com/) & [nodejs](http://n
 Just type `npm install` to install the dependencies, then `grunt` to build.
 
 ## Author
-[@onepopcorn](http://onepopcorn.com)
+[@onepopcorn](https://onepopcorn.com)
 
 ## License
 This project is licensed under the terms of the MIT license. Take a look at LICENSE.txt file for more information
